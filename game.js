@@ -67,9 +67,9 @@ window.onload = function () {
     game.load.image('platform', 'platform_1.png');
     
     //Load spritesheets
-    game.load.spritesheet('player', 'assets/Onyx_Walk_Sprite.png', 48, 62);
-    game.load.spritesheet('coin', 'assets/raptor_claw.png', 36, 44);
-    game.load.spritesheet('badge', 'assets/meat_sprite.png', 42, 54);
+    game.load.spritesheet('player', 'Onyx_Walk_Sprite.png', 48, 62);
+    game.load.spritesheet('coin', 'raptor_claw.png', 36, 44);
+    game.load.spritesheet('badge', 'meat_sprite.png', 42, 54);
   }
 
   // initial game set up
